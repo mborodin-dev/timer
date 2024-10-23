@@ -1,0 +1,68 @@
+.main {
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: center;
+
+  &_light {
+    color: rgb(0, 0, 0);
+  }
+}
+
+.timerContainer {
+  text-align: center;
+  color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  margin: auto;
+}
+
+.timerInput {
+  font-size: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+
+.inputField {
+  background: transparent;
+  border: none;
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  width: 130px;
+  outline: none;
+}
+
+.separator {
+  margin: 0 5px;
+}
+
+.active {
+  text-decoration: underline;
+}
+
+.sliderContainer {
+  margin-top: 20px;
+}
+
+.slider {
+  width: 100%;
+  // -webkit-appearance: none;
+  height: 8px;
+  background: #40434e;
+  border-radius: 5px;
+  outline: none;
+}
+
+.slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 20px;
+  height: 20px;
+  background: #fff;
+  cursor: pointer;
+  border-radius: 50%;
+}

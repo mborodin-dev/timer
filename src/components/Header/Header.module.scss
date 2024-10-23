@@ -1,0 +1,18 @@
+.header {
+  margin: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  @media screen and (max-width: 500px) {
+    margin: 25px 10px;
+  }
+}
+
+.active {
+  background-color: #34517d !important;
+
+  &_light {
+    background-color: #9dbfff !important;
+  }
+}
