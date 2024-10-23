@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://mborodin-dev.github.io/timer",
+  "homepage": "https://mborodin-dev.github.io/timer/",
   "scripts": {
     "start": "vite --open",
     "start:web": "vite --open --host",
